@@ -9,10 +9,10 @@ const ReservaModelo = Schema({
         required: true
     },
 
-    fotoHabitacion: {
+    /*fotoHabitacion: {
         type: String,
         required: true
-    },
+    },*/
 
     descripcion: {
         type: String,
@@ -25,7 +25,7 @@ const ReservaModelo = Schema({
     },
 
     precioNinoNoche: {
-        type: Date,
+        type: Number,
         required: true
     },
     
