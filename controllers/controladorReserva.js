@@ -4,10 +4,10 @@
 //IMPORTACIONES
 const { request, response } = require("express");
 
-const { insertarReserva } = require("../services/servicio.js");
-const { leerReserva} = require("../services/servicio.js");
-const { borrarReserva } = require("../services/servicio.js");
-const { modificarReserva } = require("../services/servicio.js");
+const { insertarReserva } = require("../services/servicioReserva.js");
+const { leerReserva} = require("../services/servicioReserva.js");
+const { borrarReserva } = require("../services/servicioReserva.js");
+const { modificarReserva } = require("../services/servicioReserva.js");
 
 //crear una funcion para cada operacion del servidor
 async function registrarReserva(peticion = request, respuesta = response) {
